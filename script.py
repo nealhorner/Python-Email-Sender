@@ -10,4 +10,4 @@ def send(FROM,TO,SUBJECT,TEXT,SERVICE,PORT,USERNAME,PASSWORD):
     server.quit()
 
 # Example
-send("Your Name",["thenealhorner@gmail.com"],"Subject","Text","smtp.gmail.com",587,"server27314","encryption")
+send("Your Name",["name@domain.com"],"Subject","Text","smtp.gmail.com",587,"username","password")
